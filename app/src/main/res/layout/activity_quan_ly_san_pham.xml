@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:text="Quản lý sản phẩm  "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#03A9F4"
+        android:textSize="30sp"
+        android:textStyle="bold"></TextView>
+    <Button
+        android:layout_marginTop="15dp"
+        android:background="#B3342A"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text=" Thêm  sản phẩm   "></Button>
+
+    <Button
+        android:layout_marginTop="10dp"
+
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text=" Sửa  sản phẩm   "></Button>
+    <Button
+        android:layout_marginTop="10dp"
+
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text=" Xóa sản phẩm   "></Button>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        />
+</LinearLayout>
